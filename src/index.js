@@ -1,6 +1,7 @@
-export const method = name => (...args) => obj => obj[name](...args);
+export const method = name => (...args) => value => value[name](...args);
 
-export const transform = transformation => value => transformation(value);
+export const transform = transformation => (...values) =>
+  transformation(...values);
 
 export const chain = (...transformations) => value =>
   transformations.reduce(
