@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chain matches snapshot of inc twice 1`] = `3`;
+
+exports[`identity matches snapshot of a number 1`] = `3`;
+
+exports[`method matches snapshot of inc function 1`] = `3`;
+
+exports[`transform matches snapshot of inc function 1`] = `3`;
