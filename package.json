@@ -1,6 +1,6 @@
 {
   "name": "spicy-transducers",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Composable algorithmic transformations",
   "main": "lib/index.js",
   "repository": "https://github.com/spfr/spicy-transducers",
