@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "repository": "https://github.com/spfr/spicy-transducers",
   "contributors": [
-    "Jovan Erčić <jovan@spicefactory.co>"
+    "Jovan Erčić <jovan@spicefactory.co>",
+    "Filip Danić <filip@spicefactory.co>"
   ],
   "license": "MIT",
   "devDependencies": {
