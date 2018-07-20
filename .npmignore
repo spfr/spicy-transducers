@@ -1,0 +1,10 @@
+src/
+utils/
+coverage/
+examples/
+
+.babelrc
+.editorconfig
+.gitignore
+.npmignore
+.nvmrc
