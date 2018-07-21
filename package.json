@@ -27,6 +27,7 @@
   "scripts": {
     "lint": "prettier src/**/*.js --write",
     "clean": "rimraf lib",
+    "test": "echo Skipping tests…",
     "build": "babel src --ignore **/*.test.js -d lib",
     "precommit": "lint-staged",
     "commit": "git-cz",
