@@ -1,1 +1,1 @@
-export const set = (key, value) => object => ({ ...object, [key]: value });
+export default (key, value) => object => ({ ...object, [key]: value });

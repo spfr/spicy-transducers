@@ -1,4 +1,4 @@
-export const update = (key, updater) => object => ({
+export default (key, updater) => object => ({
   ...object,
   [key]: updater(object[key]),
 });
