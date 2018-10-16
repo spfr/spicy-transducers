@@ -1,1 +1,2 @@
-export default fallback => value => value || fallback;
+export default fallback => value =>
+  value === null || value === undefined ? fallback : value;
