@@ -7,6 +7,8 @@ notifications:
 node_js:
   - '9'
   - '8'
+script:
+  - yarn clean && yarn build
 after_success:
   - yarn travis-deploy-once && yarn semantic-release
 branches:
