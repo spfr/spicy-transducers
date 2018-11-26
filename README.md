@@ -33,15 +33,18 @@ Functions are grouped and exported based on the data type that they operate on.
 
 ### Array
 
-| Name       | Usage                                          | Notes                                                                                                                                                                     |
-|------------|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|    
-| map        | `map(mapFunction)(array)`                      | Map function can use the same signature as [Array.prototype.map().](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)           |
-| reduce     | `reduce(reduceFunction, defaultValue)(array)`  | Reduce function can have the same signature as [Array.prototype.reduce().](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) |
-| pop        | `pop(array)`                                   | Returns a new array, with the previous head removed.                                                                                                                      |
-| push       | `push(value)(array)`                           | Returns a new array, with the new value pushed as the head.                                                                                                               |
-| get        | `get(index)(array)`                            |                                                                                                                                                                           |
-| set        | `set(index, value)(array)`                     |                                                                                                                                                                           |
-| update     | `update(index, updateFn)(array)`               | The update function will get the current value of the specified `index` as it’s argument.                                                                                 |
+| Name        | Usage                                          | Notes                                                                                                                                                                     |
+|-------------|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|    
+| map         | `map(mapFunction)(array)`                      | Map function can use the same signature as [Array.prototype.map().](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)           |
+| reduce      | `reduce(reduceFunction, defaultValue)(array)`  | Reduce function can have the same signature as [Array.prototype.reduce().](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) |
+| reduceRight | `reduce(reduceFunction, defaultValue)(array)`  | Same as [Array.prototype.reduceRight().](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight)                              |
+| pop         | `pop(array)`                                   | Returns a new array, with the previous head removed.                                                                                                                      |
+| push        | `push(value)(array)`                           | Returns a new array, with the new value pushed as the head.                                                                                                               |
+| head        | `head(array)`                                  | Returns the first element from the array.                                                                                                                                 |
+| tail        | `tail(array)`                                  | Returns all elements except the first one (the `head`.)                                                                                                                   |
+| get         | `get(index)(array)`                            |                                                                                                                                                                           |
+| set         | `set(index, value)(array)`                     |                                                                                                                                                                           |
+| update      | `update(index, updateFn)(array)`               | The update function will get the current value of the specified `index` as it’s argument.                                                                                 |
 
 ### Number
 
